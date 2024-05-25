@@ -1,10 +1,10 @@
 [
-  {
+     {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.imsyy.top/"
+    "link": "https://ysundy.cn/"
   },
-  {
+    {
     "icon": "Cloud",
     "name": "网盘",
     "link": "https://pan.imsyy.top/"
@@ -28,10 +28,10 @@
     "icon": "Fire",
     "name": "今日热榜",
     "link": "https://hot.imsyy.top/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.imsyy.top/"
   }
+//   {
+//     "icon": "LaptopCode",
+//     "name": "站点监测",
+//     "link": "https://status.imsyy.top/"
+//   } 
 ]
