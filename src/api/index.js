@@ -64,16 +64,15 @@ export const getWeather = async (key, city) => {
   const res = await fetch(
     `https://restapi.amap.com/v3/weather/weatherInfo?key=${key}&city=${city}`,
   );
-
   return await res.json();
 };
 
 // 获取教书先生天气 API
 // https://api.oioweb.cn/doc/weather/GetWeather
 export const getOtherWeather = async () => {
-    //  https://api.gumengya.com/Api/Weather     三天天气
-    //  https://api.oioweb.cn/api/weather/GetWeather  教书先生API
-    // "https://api.gumengya.com/Api/Weather?format=json&scene=1" 实时天气
-  const res = await fetch("https://api.oioweb.cn/doc/weather/GetWeather");
+  const res = await fetch("https://api.oioweb.cn/api/weather/GetWeather");
   return await res.json();
 };
+
+// "https://api.gumengya.com/Api/Weather?format=json&scene=1" 实时天气
+//  https://api.gumengya.com/Api/Weather     三天天气

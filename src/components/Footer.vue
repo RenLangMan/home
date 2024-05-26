@@ -24,10 +24,18 @@
           {{ siteIcp }}
         </a>
         <!-- 公安备案 -->
-                <a v-if="siteGongan" href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank">
+        <div>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{siteGonganNum}}" title="公安备案" target="_blank">
+                <span>
+                    <img class="icon" :src="/images/icon/gonganbeian.png" width="13,height=13" />
+                {{ siteGongan }}</span>
+            </a>
+        </div>
+        <!-- <a :href="beianUrl">{{ siteGongan }}</a>
+        <a v-if="siteGongan" href="https://beian.mps.gov.cn/#/query/webSearch?code={{ siteIcp }}" target="_blank">
           &amp;
           {{ siteGongan }}
-        </a>
+        </a> -->
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
@@ -54,7 +62,9 @@ const fullYear = new Date().getFullYear();
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteGongan = ref(import.meta.env.VITE_SITE_GONGAN);
+const siteGonganNum = ref(import.meta.env.VITE_SITE_GONGAN_NUM);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
+
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
   if (!url) return "https://www.imsyy.top";
