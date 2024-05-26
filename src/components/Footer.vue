@@ -25,9 +25,10 @@
         </a>
         <!-- 公安备案 -->
         <div>
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{siteGonganNum}}" title="公安备案" target="_blank">
+            <a v-if="siteGongan" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{siteGonganNum}}" title="公安备案" target="_blank">
+                &amp;
                 <span>
-                    <img class="icon" :src="/images/icon/gonganbeian.png" width="13,height=13" />
+                    <img class="icon" :src="/images/icon/gonganbeian.png" width="13,height=13" />&amp;
                 {{ siteGongan }}</span>
             </a>
         </div>
