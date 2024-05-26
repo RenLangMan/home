@@ -64,12 +64,15 @@ export const getWeather = async (key, city) => {
   const res = await fetch(
     `https://restapi.amap.com/v3/weather/weatherInfo?key=${key}&city=${city}`,
   );
+
   return await res.json();
 };
 
 // 获取教书先生天气 API
 // https://api.oioweb.cn/doc/weather/GetWeather
 export const getOtherWeather = async () => {
-  const res = await fetch("https://api.oioweb.cn/api/weather/GetWeather");
+    //  https://api.gumengya.com/Api/Weather 
+    //  https://api.oioweb.cn/api/weather/GetWeather 
+  const res = await fetch("https://api.gumengya.com/Api/Weather");
   return await res.json();
 };
