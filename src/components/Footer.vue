@@ -24,19 +24,19 @@
           {{ siteIcp }}
         </a>
         <!-- 公安备案 -->
-        <div>
+        <!-- <div>
             <a v-if="siteGongan" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{siteGonganNum}}" title="公安备案" target="_blank">
                 &amp;
                 <span>
                     <img class="icon" :src="/images/icon/gonganbeian.png" width="13,height=13" />&amp;
                 {{ siteGongan }}</span>
             </a>
-        </div>
-        <!-- <a :href="beianUrl">{{ siteGongan }}</a>
-        <a v-if="siteGongan" href="https://beian.mps.gov.cn/#/query/webSearch?code={{ siteIcp }}" target="_blank">
-          &amp;
+        </div> -->
+        <a :href="beianUrl">{{ siteGongan }}</a>
+        <a v-if="siteGongan" href="https://beian.mps.gov.cn/#/query/webSearch?code={{ siteGonganNum }}" target="_blank">
+          <img class="icon" :src="/images/icon/gonganbeian.png" width="13,height=13" />&amp;
           {{ siteGongan }}
-        </a> -->
+        </a>
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
