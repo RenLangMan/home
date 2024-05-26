@@ -23,6 +23,11 @@
           &amp;
           {{ siteIcp }}
         </a>
+        <!-- 公安备案 -->
+                <a v-if="siteGongan" href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank">
+          &amp;
+          {{ siteGongan }}
+        </a>
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
@@ -48,6 +53,7 @@ const fullYear = new Date().getFullYear();
 // 加载配置数据
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
+const siteGongan = ref(import.meta.env.VITE_SITE_GONGAN);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
