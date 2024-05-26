@@ -71,8 +71,9 @@ export const getWeather = async (key, city) => {
 // 获取教书先生天气 API
 // https://api.oioweb.cn/doc/weather/GetWeather
 export const getOtherWeather = async () => {
-    //  https://api.gumengya.com/Api/Weather 
-    //  https://api.oioweb.cn/api/weather/GetWeather 
-  const res = await fetch("https://api.gumengya.com/Api/Weather");
+    //  https://api.gumengya.com/Api/Weather     三天天气
+    //  https://api.oioweb.cn/api/weather/GetWeather  教书先生API
+    // "https://api.gumengya.com/Api/Weather?format=json&scene=1" 实时天气
+  const res = await fetch("https://api.oioweb.cn/doc/weather/GetWeather");
   return await res.json();
 };
