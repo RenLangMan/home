@@ -32,11 +32,11 @@
                 {{ siteGongan }}</span>
             </a>
         </div> -->
-        <a :href="beianUrl">{{ siteGongan }}</a>
+<!--         <a :href="beianUrl">{{ siteGongan }}</a>
         <a v-if="siteGongan" href="https://beian.mps.gov.cn/#/query/webSearch?code={{ siteGonganNum }}" target="_blank">
           <img class="icon" :src="/images/icon/gonganbeian.png" width="13,height=13" />&amp;
           {{ siteGongan }}
-        </a>
+        </a> -->
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
