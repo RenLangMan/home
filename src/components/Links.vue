@@ -42,8 +42,12 @@
 
 <script setup>
 import { Icon } from "@vicons/utils";
+// import {SvgIcon} from "./components/SvgIcon.vue"
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
 import { Link, Blog, CompactDisc, Cloud, Compass, Book, Fire, LaptopCode } from "@vicons/fa"; // 注意使用正确的类别
+// import { weibo } from "@icon-park/vue-next";
+// src\assets\iconfont\iconfont.js
+// import iconfont from "@/assets/iconfont/iconfont.js";
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -70,6 +74,15 @@ const siteIcon = {
   Book,
   Fire,
   LaptopCode,
+  
+
+//   icon-gitea,
+//   icon-a-61acd0dd2ab3f51d912b1986,
+//   icon-nginx-copy,
+//   icon-github,
+//   icon-QQ,
+//   icon-youxiang,
+
 };
 
 // 链接跳转

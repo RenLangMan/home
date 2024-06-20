@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4591277 */
+  src: url('//at.alicdn.com/t/c/font_4591277_p7uzm8e9q6e.woff2?t=1718785230261') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4591277_p7uzm8e9q6e.woff?t=1718785230261') format('woff'),
+       url('//at.alicdn.com/t/c/font_4591277_p7uzm8e9q6e.ttf?t=1718785230261') format('truetype');
+}
+
+/* https://at.alicdn.com/t/c/font_4591277_p7uzm8e9q6e.css */
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a-61acd0dd2ab3f51d912b1986:before {
+  content: "\e603";
+}
+
+.icon-nginx:before {
+  content: "\e83e";
+}
+
+.icon-nginx-copy:before {
+  content: "\eafa";
+}
+
+.icon-laptop-code:before {
+  content: "\e698";
+}
+
+.icon-fire:before {
+  content: "\e639";
+}
+
+.icon-book:before {
+  content: "\e62b";
+}
+
+.icon-music-player-1:before {
+  content: "\e64b";
+}
+
+.icon-cloud:before {
+  content: "\e7d9";
+}
+
+.icon-compass:before {
+  content: "\e86b";
+}
+
+.icon-Compact-Disc:before {
+  content: "\e601";
+}
+
+.icon-bilibilizhanghao:before {
+  content: "\e602";
+}
+
+.icon-github:before {
+  content: "\e712";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-youxiang:before {
+  content: "\e61c";
+}
+
+.icon-gitea:before {
+  content: "\e600";
+}
+
+.icon-blog:before {
+  content: "\eaf9";
+}
+
