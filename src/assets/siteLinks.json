@@ -7,17 +7,32 @@
    {
     "icon": "Compass",
     "name": "起始页",
-    "link": "https://nav.imsyy.top/"
+    "link": "https://nav.ysundy.cn/"
+  },
+    {
+    "icon": "Fire",
+    "name": "今日热榜",
+    "link": "https://hot.imsyy.top/"
+  },
+      {
+    "icon": "Cloud",
+    "name": "网盘",
+    "link": "https://pan.imsyy.top/"
+  },
+    {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://music.imsyy.top/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.imsyy.top/"
   },
   {
     "icon": "Book",
     "name": "网址集",
     "link": "https://web.imsyy.top/"
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
   },
  {
     "icon":"icon-gitea",
@@ -28,21 +43,6 @@
     "icon":"icon-a-61acd0dd2ab3f51d912b1986",
     "name":"青龙面板",
     "link":"https://ql.ysundy.com"
-  },
-    {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://pan.imsyy.top/"
-  },
-  {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.imsyy.top/"
   },
   {
     "icon":"icon-nginx-copy",
